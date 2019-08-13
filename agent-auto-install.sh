@@ -1,3 +1,4 @@
+#/bin/bash
 cd /opt/ && wget https://github.com/ossec/ossec-hids/archive/3.3.0.tar.gz
 tar zxvf 3.3.0.tar.gz && cd ossec-hids-3.3.0/
 wget https://ftp.pcre.org/pub/pcre/pcre2-10.32.tar.gz && tar xzf pcre2-10.32.tar.gz -C src/external
