@@ -9,6 +9,7 @@ echo USER_INSTALL_TYPE=\"agent\" >> etc/preloaded-vars.conf
 echo USER_DIR=\"/var/ossec\" >> etc/preloaded-vars.conf
 echo USER_ENABLE_ACTIVE_RESPONSE=\"y\" >> etc/preloaded-vars.conf
 echo USER_ENABLE_SYSCHECK=\"y\" >> etc/preloaded-vars.conf
+echo USER_ENABLE_SYSLOG=\"y\" >> etc/preloaded-vars.conf
 echo USER_ENABLE_ROOTCHECK=\"y\" >> etc/preloaded-vars.conf
 echo USER_AGENT_SERVER_IP=\"10.1.6.211\" >> etc/preloaded-vars.conf
 sh ./install.sh
